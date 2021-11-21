@@ -44,7 +44,6 @@ nav {
 }
 
 nav ul {
-  list-style-type: none;
   display: flex;
   justify-content: space-between;
 }
@@ -52,8 +51,14 @@ nav ul {
 nav li {
   text-decoration: none;
   margin-top: 30px;
+  display: block;
   color: #3f403f;
   font-family: sans-serif;
+}
+
+nav a{
+  text-decoration: none;
+ 
 }
 
 .btn {
@@ -159,14 +164,14 @@ nav li {
   height: 470px;
   border: 2px solid #06942a;
   border-radius: 10px;
-  transform: translate(765px, 100px);
+  transform: translate(190%, 6.4rem);
 }
 
 .image-wrapper img {
   width: 32%;
   height: 470px;
   border-radius: 10px;
-  transform: translate(750px, -385px);
+transform: translate(185%, -385px);
 }
 
 /*********** styles for card container ***********/
